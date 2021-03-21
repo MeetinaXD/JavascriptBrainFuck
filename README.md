@@ -27,7 +27,12 @@ use **NPM**
 npm i colors shelljs yargs
 ```
 
-## Use Brainfuck Compiler
+## Brainfuck Compiler
+**screenshot**
+![Screenshot](./assets/compiler-screenshot.png)
+**after compile**
+![Screenshot](./assets/after-compile.png)
+
 You can get the usege in the terminal, use
 ```shell
 node compile.js -h
@@ -37,7 +42,7 @@ node compile.js -h
 node compile.js --help
 ```
 
-Brainfuck Compile offer you **3 options**, usage:
+Compiler offers you **3 options**, usage:
 ```shell
 node compile.js sources [-o|--output] destination [-h|--help] [-r|--run]
 ```
