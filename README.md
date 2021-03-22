@@ -14,7 +14,7 @@ There is no installation required, download the latest release and unpack the zi
 ### Run Sample
 To view the sample, open `index.html` in your browser (`Google Chrome` is recommended)
 
-Then, press `Command + Shift + I` or `Ctrl + Shift + I` (On Windows) to open `DevTools`
+Then, press `Command + Option + I` or `Ctrl + Shift + I` (On Windows) to open `DevTools`
 
 See the log.
 
