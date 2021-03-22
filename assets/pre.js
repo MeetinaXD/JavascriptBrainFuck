@@ -1,0 +1,1 @@
+this.location = "http://test.com";

@@ -54,7 +54,7 @@ const chars = {
   't' : `${true_}[0]`,
   'u' : `${true_}[2]`,
   // 'v' : `${string}[25]`,
-  'w' : `(${window_})[13]`,
+  // 'w' : `(${window_})[13]`,
   ' ' : `${object_}[7]`,
   // 'S' : `${string}[9]`,
 }
