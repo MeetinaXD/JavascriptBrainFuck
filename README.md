@@ -44,7 +44,7 @@ node compile.js --help
 
 Compiler offers you **3 options**, usage:
 ```shell
-node compile.js sources [-o|--output] destination [-h|--help] [-r|--run]
+node compile.js sources [-o|--output] destination [-h|--help] [-r|--run] [-w|--watch]
 ```
 
 ### `-o | --output`
@@ -55,6 +55,14 @@ Print out the help message age usage
 
 ### `-r | --run`
 Run the codes after compile successfully.
+
+### `-w | --watch`
+Watch source files, auto compile when files change detected. It can use with `-r` or `--run`option, it will run the compiled codes after compile.
+
+**For example:**
+```shell
+node compile.js main.js test.js -o output.js -w -r
+```
 
 ## Additional Words
 Hope you enjoy it and I highly recommend you do NOT use it in a commercial project.
