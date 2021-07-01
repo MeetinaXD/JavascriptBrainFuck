@@ -6,17 +6,17 @@ Last Edit: Marc 21, 2021
 
 This is a meaningless project **for joy purposes**.
 
-This project contains a `sample` of how to run JavaScript Brainfuck codes and a `compile` for **converting** normal codes to Brainfuck-like codes.
+This project contains a `sample`. It shows you how to run `JavaScript Brainfuck` codes. And a `compiler` for **converting** normal codes to `Brainfuck` codes.
 
 ## Download and Run
-There is no installation required, download the latest release and unpack the zip file.
+There is no installation required, download the latest release and unpack it.
 
 ### Run Sample
-To view the sample, open `index.html` in your browser (`Google Chrome` is recommended)
+Open `index.html` in your browser (`Google Chrome` is recommended)
 
 Then, press `Command + Option + I` or `Ctrl + Shift + I` (On Windows) to open `DevTools`
 
-See the log.
+See `console`.
 
 ### Compiler Requirement
 
@@ -30,10 +30,10 @@ npm i colors shelljs yargs
 ## Brainfuck Compiler
 **screenshot**
 ![Screenshot](./assets/compiler-screenshot.png)
-**after compile**
+**after compiling**
 ![Screenshot](./assets/after-compile.png)
 
-You can get the usege in the terminal, use
+You can get the usege in the terminal, using:
 ```shell
 node compile.js -h
 ```
@@ -48,16 +48,16 @@ node compile.js sources [-o|--output] destination [-h|--help] [-r|--run] [-w|--w
 ```
 
 ### `-o | --output`
-Specific the output path, **only ONE** path will be recognized as output path.
+Specific the output path, **only ONE** path will be recognized as an output path.
 
 ### `-h | --help`
-Print out the help message age usage
+Print out the help message and usage
 
 ### `-r | --run`
 Run the codes after compile successfully.
 
 ### `-w | --watch`
-Watch source files, auto compile when files change detected. It can use with `-r` or `--run`option, it will run the compiled codes after compile.
+Watch source files and auto compile when files change are detected. It can use with `-r` or `--run`option, it will run the compiled codes after compiling.
 
 **For example:**
 ```shell
